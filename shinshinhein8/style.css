@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* home session css start */
+
+.home{
+    background-image: url("./images/school-bg.jpeg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.text{
+    height: 100vh;
+}
+
+.session5 #card{
+    background-image: url("./images/group-phot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.session5 #text-container{
+    background-color: rgba(74, 73, 73, 0.52);
+}
+
+/* home session css end */
+
+.about, .courses, .blogs, .contact{
+    background-image: url("./images/granduate.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about h3, .courses h3, .blogs h3, .contact h3{
+    min-height: 250px;
+}
+
+
+@media only screen and (max-width: 991px){
+    #div3{
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #content-div{
+        background-color: rgba(232, 225, 225, 0.471);
+        width: 500px;
+        padding: 0 20px;
+    }
+
+    #content-div h2, #content-div p{
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+

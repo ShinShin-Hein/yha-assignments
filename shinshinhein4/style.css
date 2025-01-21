@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(42, 47, 67);
+    min-height: 710px;
+    background-image: linear-gradient(rgb(221, 198, 229), rgb(188, 199, 252));
+
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    padding: 25px 30px;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.2) 10px 20px 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.999);
+}
+
+/* left side session css start */
+
+.image-content-container{
+    display: flex;
+}
+
+.img-container{
+    width: 50%;
+}
+
+.image{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+} 
+
+.image img{
+    width: 100%;
+}
+
+/* left side session css end */
+
+
+/* right side session css start */
+
+.content-container{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.market{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.market .radius{
+    background-color: rgb(42, 47, 67);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+/* right side session css end */
+
+
+/* form session css start */
+
+.inputs-container {
+    width: 85%;
+}
+
+.inputs-container input {
+    padding: 13px 10px;
+    width: 100%;
+    margin: 15px 0;
+    border: none;
+    border-radius: 8px;
+    color: rgb(178, 119, 178);
+    background-color: rgb(233, 242, 251);
+}
+
+.inputs-container input:focus {
+    outline-color: rgb(221, 198, 229);
+}
+
+input[type="checkbox"] {
+    accent-color: rgb(142, 108, 188);
+}
+  
+::placeholder {
+    color: rgb(42, 47, 67);
+}
+
+.pwd-container,
+.btn-container {
+    display: flex;
+    padding-bottom: 23px;
+}
+
+.pwd-container .pwd,
+.pwd-container .confirm-pwd,
+.btn-container .register-btn,
+.btn-container .signin-btn {
+    width: 45%;
+}
+
+.pwd-container .pwd,
+.btn-container .register-btn {
+    margin-right: 10%;
+}
+
+.register-btn button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(142, 108, 188);
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 2px 3px rgb(191, 179, 197);
+}
+
+.signin-btn button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(142, 108, 188);
+    background-color: rgb(245, 237, 249);
+    color: rgb(142, 108, 188);
+    font-weight: bold;
+    box-shadow: 1px 2px 3px rgb(201, 178, 231);
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.check p {
+    color: rgb(42, 47, 67);
+}
+
+.check input {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    color: blck;
+}
+
+.links-container {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+
+.links-container a {
+    text-decoration: none;
+    width: 33%;
+    text-align: center;
+    margin: auto;
+}
+
+.facebook,
+.linked-in,
+.google {
+    filter: drop-shadow(1px 1px 2px rgb(42, 47, 67));
+    filter: drop-shadow(1px 1px 2px rgb(142, 108, 188))
+}
+
+/* form session css end */

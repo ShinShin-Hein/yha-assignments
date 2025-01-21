@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #120025;
+}
+
+.navbar-brand {
+    border-bottom: 2px solid #E5958E;
+}
+
+.navbar .container-fluid {
+    padding: 0px 100px;
+}
+
+#navbarNav .nav-item .nav-link {
+    color: white;
+}
+
+#navbarNav .nav-item .nav-link:hover {
+    color: #E5958E;
+}
+
+/* home session css start */
+
+.home {
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    height: 100vh;
+}
+
+.home .text-1 {
+    font-size: 23px;
+}
+
+.home .name {
+    font-size: 30px;
+}
+
+.para {
+    width: 85%;
+}
+
+.home .icons-container,
+.footer .footer-icons-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.home .icon,
+.footer .footer-icons-container .icon {
+    background-color: #E5958E;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 20px;
+}
+
+.home .icon:hover {
+    background-color: white;
+}
+
+.home .icon i,
+.footer .footer-icons-container .icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 15px;
+    color: #210025;
+    z-index: 1;
+}
+
+.home .btn,
+.about .btn,
+.contact .btn {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #772C2C;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    transition: all 1s ease-in-out;
+}
+
+.home .btn:hover,
+.about .btn:hover,
+.contact .btn:hover {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #772C2C;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    transform: translateX(15px);
+}
+
+
+
+.img1-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 60%;
+}
+
+/* home session css end */
+
+/* about session css start */
+.about {
+    padding: 20px 100px;
+    min-height: 400px;
+    display: flex;
+    align-content: center;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+}
+
+.about .img2-container {
+    width: 80%;
+    float: right;
+}
+
+.about .img2-container img {
+    width: 75%;
+    border-radius: 15px;
+}
+
+.about .content2-container {
+    width: 80%;
+    padding: 15px;
+}
+
+.about .content2-container .title,
+.service .title,
+.skills-container .title,
+.projects .title,
+.contact {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+/* about session css end */
+
+/* service session css start */
+.service {
+    padding: 0px 100px;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.service .title,
+.skills-container .title,
+.projects .title,
+.contact {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service .row {
+    padding: 30px 0px;
+}
+
+.service .card {
+    padding: 15px 20px;
+    background-color: #4140405f;
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px #dddada4b;
+    width: 95%;
+}
+
+.service .card i {
+    color: #E5958E;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.service .card .sub-title {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+
+}
+
+.service .card p {
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.service .card .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.service .btn {
+    background-color: #E5958E;
+    color: white;
+    font-weight: bolder;
+    transition: all 1s ease-in-out;
+}
+
+.service .btn:hover {
+    background-color: #120025;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.554);
+    transform: translateY(10px);
+}
+
+/* service session css end */
+
+/* skills session css start */
+.skills-container {
+    padding: 30px 100px;
+}
+
+.skills-container .skills {
+    border: 1px solid #E5958E;
+    border-radius: 10px;
+}
+
+.skills-container .professional-skills,
+.skills-container .skills,
+.skills-container .skill,
+.coding-skills,
+.professional-skills {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.skills-container .skill p {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.skills .div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .div1 p,
+.skills .div2 p,
+.skills .div3 p,
+.skills .div4 p,
+.skills .div5 p,
+.skills .div6 p,
+.skills .div7 p {
+    color: white;
+    font-weight: bold;
+}
+
+.progress-bar {
+    border: 1px solid #E5958E;
+    height: 15px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.progress-bar .progress {
+    height: 7px;
+    background-color: transparent;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.progress-bar .progress .div1,
+.progress-bar .progress .div2,
+.progress-bar .progress .div3,
+.progress-bar .progress .div4,
+.progress-bar .progress .div5,
+.progress-bar .progress .div6,
+.progress-bar .progress .div7,
+.progress-bar .progress .div8 {
+    height: 7px;
+    background-color: #E5958E;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.progress-bar .progress .div3,
+.progress-bar .progress .div6,
+.progress-bar .progress .div7 {
+    width: 75%;
+}
+
+.progress-bar .progress .div4,
+.progress-bar .progress .div8 {
+    width: 65%;
+}
+
+.progress-bar .progress .div5 {
+    width: 85%;
+}
+
+/* skills session css end */
+
+
+/* project session css start */
+
+.projects {
+    padding: 30px 100px;
+}
+
+.projects .card-container {
+    background-color: #4140405f;
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px 23px;
+    border-radius: 15px;
+    box-shadow: 3px 2px 3px #dddada46;
+}
+
+.projects .card-container img {
+    width: 100%;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.projects .card-container>img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.projects .card-container .card-title {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.projects .card-container .para {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
+
+
+.projects .card-container .icons-container {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    background-color: black;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.projects .card-container .icons-container img {
+    width: 30%;
+    margin-right: 3%;
+}
+
+
+.projects .card-container .links-container {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* project session css end */
+
+/* contact session css start */
+.contact {
+    padding: 30px 100px;
+}
+
+.contact input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #E5958E;
+}
+
+/* contact session css end */
+
+/* footer session css start */
+.footer {
+    padding: 0px 100px;
+    background-color: #cd8079;
+}
+
+.footer p,
+.footer a,
+.footer i {
+    font-weight: bold;
+    color: #210025;
+    margin: 5px 0px;
+    padding: 0;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer a:hover,
+.footer .hover i:hover {
+    color: white;
+    transform: translateX(5px);
+}
+
+.footer .div1 {
+    display: flex;
+    justify-content: start;
+}
+
+.footer .div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .div3 {
+    float: inline-end;
+}
+
+.footer .div3-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.footer .footer-icons-container .icon {
+    background-color: #120025;
+    box-shadow: 2px 2px 3px #FFFBFB;
+}
+
+.footer .footer-icons-container .icon:hover {
+    background-color: rgba(254, 251, 251, 0.991);
+    box-shadow: 2px 2px 3px #210025;
+
+}
+
+.footer .footer-icons-container .icon i {
+    color: #E5958E;
+    margin-top: 0;
+}
+
+
+
+/* footer session css end */
+
+/* media query */
+
+@media only screen and (max-width: 1189px) {
+    .img1-container .profile {
+        width: 70%;
+    }
+
+    .home,
+    .navbar .container-fluid,
+    .about,
+    .service,
+    .skills-container,
+    .projects,
+    .contact {
+        padding: 0px 70px;
+    }
+
+    .about .img2-container,
+    .about .content2-container {
+        width: 100%;
+    }
+
+    .service .card {
+        padding: 15px;
+    }
+
+    .service .card .sub-title {
+        font-size: 23px;
+    }
+
+    .contact #form {
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .home {
+        margin-top: 30px;
+    }
+
+    .img1-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .img1-container .profile {
+        width: 280px;
+    }
+
+    .home,
+    .navbar .container-fluid,
+    .about,
+    .service,
+    .skills-container,
+    .projects,
+    .contact {
+        padding: 0px 60px;
+    }
+
+    .about {
+        margin-top: 50px;
+    }
+
+    .about .left {
+        display: none;
+    }
+
+
+    .projects .card-container {
+        width: 70%;
+    }
+
+    .contact #form {
+        width: 100%;
+    }
+
+
+    .footer .div1 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .footer .div2 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .footer .div3 {
+        float: inline-start;
+    }
+
+
+    .projects .card-container .card-title {
+        font-size: 18px;
+    }
+
+    .projects .card-container .para{
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .home .text-1 {
+        font-size: 18px;
+    }
+
+    .home .name,
+    .about .content2-container .title,
+    .service .title {
+        font-size: 23px;
+    }
+
+
+    .skills-container .professional-skills,
+    .skills-container .skills,
+    .skills-container .skill {
+        width: 100%;
+    }
+
+    .projects .card-container {
+        width: 100%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .para {
+        width: 100%;
+    }
+
+    .home,
+    .navbar .container-fluid,
+    .about,
+    .service,
+    .skills-container .projects,
+    .contact {
+        padding: 0px 40px;
+    }
+}

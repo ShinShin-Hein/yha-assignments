@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* background-color: aquamarine; */
+    margin-top: 5%;
+}
+
+.image-content-container{
+    display: flex;
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0.543);
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.img-container{
+    width: 50%;
+    /* background-color: bisque; */
+}
+
+.image{
+    /* background-color: palegreen; */
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.google-img, .facebook-img{
+    margin-right: 5px;    
+}
+
+.google-img img, .facebook-img img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.content-container{
+    width: 50%;
+    /* background-color: chocolate;     */
+}
+
+.form{
+    background-color: rgb(26, 46, 53);
+    width: 75%;
+    margin: auto;
+    padding: 23px 25px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.content-container h2{
+    text-align: center;
+}
+
+.email-phone{
+    margin-top: 30px;
+}
+
+.email-phone input, .password input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: rgb(26, 46, 53);
+    background-color: rgb(226, 226, 226);
+}
+
+.password input{
+    margin-top: 20px;
+}
+
+.email-phone input::placeholder, .password input::placeholder{
+    color: rgb(26, 46, 53);
+}
+
+.forgot{
+    margin-top: 3px;
+}
+
+.forgot p{
+    font-size: 14px;
+}
+
+.login-btn{
+    margin: 25px 0;
+}
+
+.login-btn button{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: rgb(215, 122, 92);
+}
+
+
+.facebook-google-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 23px 0;
+}
+
+.facebook-btn{
+    width: 40%;
+}
+
+.facebook-btn a, .google-btn a{
+    text-decoration: none;
+}
+
+.facebook-btn button, .google-btn button{
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(215, 122, 92);
+    width: 100%;
+}
+
+
+.google-btn{
+    width: 40%;
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.text-container p{
+    margin-right: 5px;
+}
+
+.text-container a{
+    text-decoration: none;
+    color: green;
+}
+

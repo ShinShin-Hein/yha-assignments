@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(28, 47, 54);
+}
+
+
+body{
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 251, 240);
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    padding: 50px 45px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, rgb(197, 102, 90), rgb(245, 179, 4));
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+/*left side session css start */
+
+.login-form-container{
+    width: 45%;
+    padding: 0 35px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(236, 235, 235);
+}
+
+
+.login-form-container h5{
+    margin: 15px 0;
+}
+
+.login-form-container h1{
+    margin-bottom: 20px;
+}
+/* 
+.email{
+    background-color: green;
+} */
+
+.email p, .password p{
+    margin: 10px 0;
+    color: black;
+}
+
+.email input, .password input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 9px 0;
+    width: 100%;
+    color: rgb(28, 47, 54);
+    background-color: rgb(200, 199, 199);
+    padding-left: 10px;
+}
+
+.forgot p{
+    text-align: right;
+    padding-top: 3px;
+    color: rgb(197, 102, 89);
+}
+
+.signin-btn button{
+    border: none;
+    outline: none;
+    padding: 8px 0;
+    width: 100%;
+    background-color: rgb(197, 102, 89);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 23px 0;
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icons-container{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.icons-container a{
+    text-decoration: none;
+    width: 33%;
+    text-align: center;
+}
+
+.register{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.links-container {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 7%;
+}
+
+.links-container a {
+    text-decoration: none;
+    width: 33%;
+    text-align: center;
+    margin: auto;
+}
+
+.facebook,
+.linked-in,
+.google {
+    filter: drop-shadow(1px 1px 2px rgb(42, 47, 67));
+    filter: drop-shadow(1px 1px 2px rgb(142, 108, 188))
+}
+
+
+
+/* left side session css end */
+
+
+/* right side session css start */
+
+.img-container{
+    width: 55%;    
+}
+
+.image{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin-right: 0;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* right side session css end */
+

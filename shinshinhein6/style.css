@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(36, 33, 18);
+}
+
+
+.container{
+    width: 45%;
+    margin: auto;
+    margin: 30px auto;
+}
+
+.flex-container{
+    width: 100%;
+    background-color: rgb(227, 228, 226);
+    margin: 0px auto;
+    padding: 25px 30px;
+    border-radius: 10px;    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.flex-start-container h3, .flex-end-container h3, .center-container h3, .space-between-container h3, .space-arround-container h3, .space-evenly-container h3{
+    padding: 10px 0px;
+}
+
+.flex-start-container .item1{
+    display: flex;
+    justify-content: start;
+    padding: 15px;
+    background-color: rgb(36, 33, 18);
+    border-radius: 5px;
+}
+
+.flex-end-container .item2{
+    display: flex;
+    justify-content: end;
+    padding: 13px;
+    background-color: rgb(36, 33, 18);
+    border-radius: 5px;
+}
+
+.center-container .item3{
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    background-color: rgb(36, 33, 18);
+    border-radius: 5px;
+}
+
+.space-between-container .item4{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    background-color: rgb(36, 33, 18);
+    border-radius: 5px;
+}
+
+.space-arround-container .item5{
+    display: flex;
+    justify-content: space-around;
+    padding: 13px;
+    background-color: rgb(36, 33, 18);
+    border-radius: 5px; 
+}
+
+.space-evenly-container .item6{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 13px;
+    background-color: rgb(36, 33, 18);
+    border-radius: 5px; 
+}
+
+.div1, .div3{
+    width: 130px;
+    height: 50px;
+    background-color: green;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgb(235, 233, 41);
+}
+
+.div2{
+    width: 80px;
+    height: 50px;
+    background-color: green;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgb(218, 215, 36);
+}
