@@ -118,7 +118,3 @@ let copyArray = bootsColors.slice();
 
 let isEqual = bootsColors === copyArray;  //Output: false (it's a new arr)
 console.log("is equal is: ", isEqual);
-
-
-
-
